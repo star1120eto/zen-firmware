@@ -39,7 +39,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                &mkp LCLK  &mo 4             &mkp RCLK  &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mkp MB1   &mkp MB3          &mkp MB2   &kp RG(RIGHT_BRACKET)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &kp LC(UP_ARROW)  &trans     &trans                 &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &kp LC(UP_ARROW)  &kp LG(C)  &kp LG(V)              &kp LG(X)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &trans            &trans     &trans                 &trans
             >;
         };
@@ -64,8 +64,8 @@
 
         layer_4 {
             bindings = <
-&trans        &trans  &trans  &trans  &trans  &macro_pw1          &kp N7  &kp N8  &kp N9  &kp LBKT  &kp RBKT   &kp BSLH
-&bt BT_SEL 0  &trans  &trans  &trans  &trans  &macro_pw2          &kp N4  &kp N5  &kp N6  &kp SEMI  &kp SQT    &kp ENTER
+&trans        &trans  &trans  &trans  &trans  &macro_pw2          &kp N7  &kp N8  &kp N9  &kp LBKT  &kp RBKT   &kp BSLH
+&bt BT_SEL 0  &trans  &trans  &trans  &trans  &macro_pw1          &kp N4  &kp N5  &kp N6  &kp SEMI  &kp SQT    &kp ENTER
 &bt BT_SEL 1  &trans  &trans  &trans  &trans  &kp LS(LG(LC(N4)))  &trans  &trans  &kp N1  &kp N2    &kp N3     &kp COMMA  &kp DOT  &kp FSLH
 &bt BT_SEL 2  &trans  &trans  &trans  &trans  &kp LS(LG(N5))      &trans  &trans  &kp N0  &kp DOT   &kp EQUAL  &trans
             >;
