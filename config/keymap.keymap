@@ -50,8 +50,8 @@
         Symbol {
             bindings = <
 &kp GRAVE      &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp DEL
-&kp LS(TILDE)  &none         &none       &none          &kp SEMI       &kp MINUS      &kp EQUAL      &kp SQT       &none         &kp LBKT      &kp RBKT      &kp BSLH
-&none          &none         &none       &none          &kp LS(COLON)  &kp LS(UNDER)  &none          &none         &kp LS(PLUS)  &kp LS(DQT)   &none         &kp SEMI   &kp APOS  &kp ENTER
+&kp LS(TILDE)  &none         &none       &kp FSLH       &kp SEMI       &kp MINUS      &kp EQUAL      &kp SQT       &kp BSLH      &kp LBKT      &kp RBKT      &kp BSLH
+&none          &none         &none       &kp LS(QMARK)  &kp LS(COLON)  &kp LS(UNDER)  &none          &none         &kp LS(PLUS)  &kp LS(DQT)   &kp LS(PIPE)  &kp SEMI   &kp APOS  &kp ENTER
 &none          &none         &none       &none          &none          &none          &none          &none         &kp COMMA     &kp DOT       &kp FSLH      &kp RSHFT
             >;
         };
