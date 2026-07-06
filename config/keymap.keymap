@@ -11,6 +11,8 @@
         macro_pw1: macro_pw1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
             bindings = <&kp N1 &kp N9 &kp N7 &kp N0 &kp N7 &kp N9 &kp N1>;
             label = "MACRO_PW1";
         };
@@ -18,6 +20,8 @@
         macro_pw2: macro_pw2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
             bindings = <&kp N2 &kp N0 &kp N1 &kp N8 &kp LS(S) &kp T &kp AT &kp F &kp Y &kp N1 &kp N1 &kp N2 &kp N0>;
             label = "MACRO_PW2";
         };
