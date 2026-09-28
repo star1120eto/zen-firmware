@@ -4,7 +4,24 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <27 28>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <28 29>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <26 27>;
+        };
+    };
 
     macros {
         macro_pw1: macro_pw1 {
